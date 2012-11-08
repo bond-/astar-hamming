@@ -36,6 +36,7 @@ public class PathFinder{
 
     /**
      * Prints out the shortest possible path from start word to stop word using words from a existing dictionary of the same length
+     * Time complexity: O(n)
      * @param start    The start word
      * @param stop     The stop word
      * @return  The shortest path
@@ -56,6 +57,7 @@ public class PathFinder{
 
     /**
      * Checks the words from dictionary
+     * Time complexity: O(n)
      * @param start      The start word
      * @param stop       The stop word
      * @param current    The current word, currently unused
@@ -79,6 +81,7 @@ public class PathFinder{
 
     /**
      * Finds the lowest cost node after looking up the complete dictionary
+     * Time complexity: O(n)
      * @param stop    The Stop word
      * @return The lowest cost node
      */
@@ -106,6 +109,7 @@ public class PathFinder{
 
     /**
      * Gets the total cost from start to stop via the current word
+     * Time complexity: O(n)
      * @param start      The start word
      * @param stop       The stop word
      * @param current    The current word

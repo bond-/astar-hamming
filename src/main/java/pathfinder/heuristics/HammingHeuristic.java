@@ -7,6 +7,7 @@ public class HammingHeuristic{
 
     /**
      * Calculates and returns the distance to goal/stop word
+     * Time complexity: O(n)
      * @param s1    The start word
      * @param s2    The stop word
      * @return  The hamming distance between two strings
