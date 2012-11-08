@@ -1,5 +1,8 @@
-package astar;
+package pathfinder;
 
+/**
+ * The Node to be used in the dictionary graph
+ */
 public class Node implements Comparable<Node>{
     int cost;
     String value;
@@ -16,9 +19,16 @@ public class Node implements Comparable<Node>{
 
         Node node = (Node) o;
 
-        if (!value.equals(node.value)) return false;
+        return value.equals(node.value);
 
-        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "cost=" + cost +
+                ", value='" + value + '\'' +
+                '}';
     }
 
     @Override

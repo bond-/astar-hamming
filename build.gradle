@@ -1,7 +1,7 @@
 apply plugin:'java'
 apply plugin:'application'
 
-mainClassName = 'astar.AStar'
+mainClassName = 'pathfinder.PathFinder'
 jar{
     manifest {
         attributes 'Main-Class': mainClassName
